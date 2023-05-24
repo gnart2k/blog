@@ -1,10 +1,9 @@
-import Card from "./Card"
-
+import Card from "./Card";
 
 const BlogList = (): JSX.Element => {
   return (
     <>
-      <div className="overflow-y-scroll h-[70vh] mt-7 ml-16 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-flow-row gap-4">
+      <div className="ml-16 grid pb-64 h-screen grid-flow-row grid-cols-1 gap-4 overflow-y-scroll md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <Card />
         <Card />
         <Card />
@@ -12,9 +11,8 @@ const BlogList = (): JSX.Element => {
         <Card />
         <Card />
       </div>
-
     </>
-  )
-}
+  );
+};
 
-export default BlogList
+export default BlogList;
